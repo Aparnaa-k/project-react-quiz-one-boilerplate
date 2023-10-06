@@ -19,15 +19,9 @@ export default class QuizComponent extends Component {
             <button className="button">4</button>
           </div>
           <div id="footer">
-            <Link to="/ResultComponent">
               <button id="previous">Previous</button>
-            </Link>
-            <Link to="/ResultComponent">
               <button id="next">Next</button>
-            </Link>
-            <Link to="/ResultComponent">
-              <button id="quit">Quit</button>
-            </Link>
+              <button id="quit" onClick={alert}>Quit</button>
           </div>
         </div>
       </div>
